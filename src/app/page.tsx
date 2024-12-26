@@ -21,7 +21,9 @@ export default function Home() {
       </div>
       <main className="min-h-screen grid place-content-center">
         <div className="bg-teal-600 h-64 w-64 rounded-full grid place-content-center ">
-          <div className="bg-teal-50 h-32 w-32 rounded-full"></div>
+          <div className="bg-teal-50 h-32 w-32 rounded-full grid place-content-center">
+            <div className="bg-red-500 h-16 w-16 rounded-full"></div>
+          </div>
         </div>
       </main>
     </>
